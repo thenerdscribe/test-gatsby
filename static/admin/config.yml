@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: thenerdscribe/test-gatsby
 
 media_folder: static/assets
 public_folder: assets
@@ -14,7 +15,3 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-
-backend:
-  name: github
-  repo: thenerdscribe/test-gatsby
